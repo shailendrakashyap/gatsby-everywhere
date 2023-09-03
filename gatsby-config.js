@@ -3,8 +3,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `gatsby-everywhere`,
+    title: `Gatsby Everywhere`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
