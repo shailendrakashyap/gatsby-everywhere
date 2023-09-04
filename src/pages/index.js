@@ -2,6 +2,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -16,12 +17,16 @@ const IndexPage = () => {
               alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
               src="../images/clifford.jpg"
           />
+          <StaticImage
+              src={"https://www.stylist.co.uk/images/app/uploads/2023/08/31110025/backsliding-1120x1120.jpg?auto=format%2Ccompress&fit=max&fm=webp&monochrome=29000000&q=75&w=1400"}
+              alt={"Backsliding"}
+          />
       </Layout>
   )
 }
 
 // You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Home Page" />
 
 // Step 3: Export your component
 export default IndexPage
