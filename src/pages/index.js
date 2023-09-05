@@ -17,10 +17,10 @@ const IndexPage = () => {
               alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
               src="../images/clifford.jpg"
           />
-          <StaticImage
-              src={"https://www.stylist.co.uk/images/app/uploads/2023/08/31110025/backsliding-1120x1120.jpg?auto=format%2Ccompress&fit=max&fm=webp&monochrome=29000000&q=75&w=1400"}
-              alt={"Backsliding"}
-          />
+          {/*<StaticImage*/}
+          {/*    src={"https://www.stylist.co.uk/images/app/uploads/2023/08/31110025/backsliding-1120x1120.jpg?auto=format%2Ccompress&fit=max&fm=webp&monochrome=29000000&q=75&w=1400"}*/}
+          {/*    alt={"Backsliding"}*/}
+          {/*/>*/}
       </Layout>
   )
 }
